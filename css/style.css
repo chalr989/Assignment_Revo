@@ -1,0 +1,22 @@
+body {
+  font-family: Verdana;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation > nav > button {
+  height: 32px;
+  background-color: #ffffff;
+}
+
+.navigation > hr {
+  border-color: rgb(218, 7, 7);
+}
+
+.navigation > h1 {
+  display: flex;
+  justify-content: center;
+}
