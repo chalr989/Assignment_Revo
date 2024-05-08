@@ -5,39 +5,57 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="navigation">
-      <div>ini Logo</div>
+    <div class="main">
+      <div class="main-container">
+        <header class="navigation">
+          <div>ini Logo</div>
 
-      <nav>
-        <button>Home</button>
-        <button>Our Packages</button>
-        <button>Call Us</button>
-      </nav>
-    </header>
-    <hr />
+          <nav>
+            <button>Home</button>
+            <button>Our Packages</button>
+            <button>Call Us</button>
+          </nav>
+        </header>
+        <hr />
 
-    <article class="container">
-      <header>
-        <h1>Ch Portfolio</h1>
-        <h3>Your happiness is our happiness</h3>
-      </header>
-
-      <section class="container-content">
-        <div class="container-content-item1"></div>
-        <div class="container-content-item">
+        <article class="container">
           <header>
-            <h3>Contact Us</h3>
-            <h6>Sales akan menghubungi anda 1x24 Jam setelah data kami terima</h6>
+            <h1>Ch Portfolio</h1>
+            <h3>Your happiness is our happiness</h3>
           </header>
-          <section class="content-fill"><label for="name">Your Name :</label> <br /><input type="text" id="name" placeholder="First and last name" /></section>
-          <section class="content-fill"><label for="email">Email Address :</label> <br /><input type="text" id="email" placeholder="example@email.com" /></section>
-          <section class="content-fill">
-            <label for="name">What are you interested in?</label>
-            <br />
+
+          <section class="container-content">
+            <div class="container-content-item1"></div>
+
+            <div class="container-content-item">
+              <header>
+                <h3>Contact Us</h3>
+                <h6>Sales akan menghubungi anda 1x24 Jam setelah data kami terima</h6>
+              </header>
+              <form action="submit">
+                <section class="content-fill"><label for="name">Your Name :</label> <br /><input type="text" id="name" placeholder="First and last name" /></section>
+                <section class="content-fill"><label for="email">Email Address :</label> <br /><input type="text" id="email" placeholder="example@email.com" /></section>
+                <section class="content-fill">
+                  <label for="interest">What are you interested in?</label>
+                  <br />
+                  <select class="option" name="interest" id="interest">
+                    <option value="select">Select option</option>
+                    <option value="tripmurah">trip murah</option>
+                    <option value="cruise">trip cruise</option>
+                    <option value="booking">booking</option>
+                  </select>
+                  <br /><br />
+                  <input type="submit" value="Submit" />
+                </section>
+              </form>
+            </div>
           </section>
-        </div>
-      </section>
-    </article>
+          <section>
+            <div>Our Package</div>
+          </section>
+        </article>
+      </div>
+    </div>
   </body>
 
   <script src="js/script.js"></script>
