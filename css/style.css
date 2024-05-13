@@ -1,20 +1,22 @@
 body {
   font-family: Verdana;
   scroll-margin: auto;
-  background-color: rgb(254, 252, 252);
-}
-
-body > .main {
-  margin-left: 180px;
-  margin-right: 180px;
-  margin-top: 30px;
   background-color: whitesmoke;
 }
 
+body > .main {
+  margin: 30px 300px 30px 300px;
+  background-color: rgb(254, 252, 252);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .main-container {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
+  padding: 20px 50px 20px 50px;
+  height: 200px20px;
 }
 
 .navigation {
@@ -27,8 +29,11 @@ body > .main {
   background-color: #ffffff;
 }
 
-.navigation > hr {
-  border-color: rgb(218, 7, 7);
+hr {
+  border-color: lightgray;
+  opacity: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .navigation > h1 {
@@ -75,6 +80,7 @@ body > .main {
 
 .container-content-item > header {
   margin: 30px;
+  height: fit-content;
 }
 
 .container-content-item > header {
@@ -101,7 +107,7 @@ body > .main {
   table-layout: fixed;
 }
 
-.container-content-item > .content-fill > select {
+select {
   width: 105%;
   background-color: #ffffff;
   color: #787373;
@@ -109,4 +115,65 @@ body > .main {
   border-radius: 5px;
   border: 3px solid rgb(213, 211, 211);
   padding-left: 10px;
+}
+
+.content-fill2 {
+  background-color: whitesmoke;
+  height: 150px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-container2 {
+  padding: 20px 50px 20px 50px;
+  height: 200px;
+  display: inline-flex;
+}
+
+.card {
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.card-body {
+  padding: 10px 10px 0px 10px;
+  font-size: small;
+}
+
+.card-body > p {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.section3 {
+  text-align: center;
+  font-size: small;
+  padding: 0px 200px 0px 200px;
+}
+
+.section3 > .closing > p {
+  color: gray;
+}
+
+.section3 > button {
+  width: 200px;
+  height: 50px;
+  border-radius: 0%;
+  background-color: darkslategray;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
